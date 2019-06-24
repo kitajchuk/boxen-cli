@@ -15,15 +15,15 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git://github.com/kitajchuk/boxen-cli.git"
+    "url": "git://github.com/kitajchuk/boxen-sqs.git"
   },
   "bugs": {
-    "url": "https://github.com/kitajchuk/boxen-cli/issues"
+    "url": "https://github.com/kitajchuk/boxen-sqs/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/kitajchuk/boxen-cli/blob/master/LICENSE"
+      "url": "https://github.com/kitajchuk/boxen-sqs/blob/master/LICENSE"
     }
   ],
   "keywords": [],
