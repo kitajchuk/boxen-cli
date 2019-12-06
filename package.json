@@ -2,8 +2,9 @@
   "title": "Boxen",
   "name": "boxen-sqs",
   "description": "Command line tool for Boxen: A Kit of Parts Squarespace developer SDK.",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "scripts": {
+    "test:registry": "node ./boxen.js registry",
     "test:nodir": "rm -rf test ; mkdir test ; cd test ; node ../boxen.js init",
     "test:mkdir": "rm -rf test ; mkdir test ; cd test ; node ../boxen.js init my-project",
     "test:isdir": "rm -rf test ; mkdir test ; cd test ; mkdir my-project ; node ../boxen.js init my-project",

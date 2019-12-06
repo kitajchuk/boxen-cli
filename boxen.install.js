@@ -41,6 +41,7 @@ module.exports = ( cli, dir ) => {
                             child_process.execSync( `mv ${outPath}/.eslintrc ${destPath}` );
                             child_process.execSync( `mv ${outPath}/.gitignore ${destPath}` );
                             child_process.execSync( `mv ${outPath}/.npmrc ${destPath}` );
+                            child_process.execSync( `mv ${outPath}/.boxen ${destPath}` );
                         lager.cache( "Copied SDK files!" );
                         lager.cache( "Cleaning up temporary files..." );
                             child_process.execSync( `rm -rf ${zipFile}` );
